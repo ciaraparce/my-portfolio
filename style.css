@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root{
+  --dark: #191919;
+  --pink1: #e7007d;
+  --pink2: #c73987;
+  --pink3: #dc6e9f;
+  --pink4: #fda5c8;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+nav .navbar{
+	
+}
+
+.navbar {
+	position: sticky;
+	z-index: 1;
+	background-color: #000;
+	color: black;
+	border-bottom: 1px solid gray;
+}
+
+.navbar-brand {
+	margin-left: 5%;
+	color: var(--pink1);
+}
+
+.collapse{
+	margin-right: 5%;
+}
+
+.nav-link {
+	margin-left: 2rem;
+	color: var(--pink4);
+}
+
+.home {
+	background-image: url(./images/bg-banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.home img, .home h1, .home p {
+	margin-left: 3rem;
+}
+
+.home img {
+	margin-top: 5%;
+}
+
+.profile {
+	border-radius: 300px;
+	width: 250px;
+}
+
+.about {
+	background-color: #ebe6e8;
+}
+
+.card {
+	background-color: #312e2f;
+}
+
+.card-body h5{
+	color: yellow;
+}
+
+.card-text {
+	font-size: 13px;
+}
+
+.mangrovision {
+	background-color: #02390f;
+}
+
+.safezone {
+	background-color: #080239;
+}
+
+.asu {
+	background-color: #023934;
+}
+
+.projects {
+	background-color: #181f17;
+}
+
+.projects h1{
+	text-align: center;
+}
+
+.card-title, .card-subtitle {
+	text-align: center;
+}
+
+.card-text {
+	text-align: justify;
+}
+
+.contact h2{
+	text-align: center;
+}
+
+.contact {
+	background-color: #000;
+}
+
+footer {
+	background-color: #515353;
+	height: auto;
+	color: #fff;
+	padding-top: 40px;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3 {
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.footer-content p {
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+	margin:  0 10px;
+}
+
+.socials a {
+	text-decoration: none;
+	color: white;
+}
+
+.socials a i {
+	font-size: 1.1rem;
+	transition: color .4s ease;
+}
+
+.socials a:hover i {
+	color: aqua;
+}
+
+.footer-bottom {
+	background-color: #000;
+	padding: 20px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-bottom p {
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.footer-bottom span {
+	text-transform: uppercase;
+	opacity:  .4;
+	font-weight: 200;
+}
