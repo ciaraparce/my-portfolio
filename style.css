@@ -7,13 +7,6 @@
 	box-sizing: border-box;
 }
 
-:root{
-  --dark: #191919;
-  --pink1: #e7007d;
-  --pink2: #c73987;
-  --pink3: #dc6e9f;
-  --pink4: #fda5c8;
-}
 
 body {
 	font-family: 'Poppins', sans-serif;
@@ -27,13 +20,12 @@ nav .navbar{
 	position: sticky;
 	z-index: 1;
 	background-color: #000;
-	color: black;
+	color: #000;
 	border-bottom: 1px solid gray;
 }
 
 .navbar-brand {
 	margin-left: 5%;
-	color: var(--pink1);
 }
 
 .collapse{
