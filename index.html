@@ -16,249 +16,163 @@
 </head>
 
 <body>
+	<!-- NAVIGATION SECTION START -->
 	<nav class="navbar navbar-expand-lg navbar-dark">
-	  <<a class="navbar-brand" href="#home">MY PORTFOLIO</a>
+	  <a class="navbar-brand ml-md-3 ml-sm-0" href="#home">MY PORTFOLIO</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNav">
 	    <ul class="navbar-nav ml-auto">
-	    	<li class="nav-item">
-	        	<a class="nav-link" href="#home">Home</a>
-	      	</li>
-	     	<li class="nav-item">
-	        	<a class="nav-link" href="#about">About</a>
-	      	</li>
-	     	<li class="nav-item">
-	        	<a class="nav-link" href="#projects">Projects</a>
-	      	</li>
-	      	<li class="nav-item">
-	        	<a class="nav-link" href="#contact">Contact</a>
-	      	</li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#home">Home</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#about">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#projects">Projects</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#gallery">Gallery</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#tools">Tools</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#tools">Contact</a>
+	      </li>
 	    </ul>
 	  </div>
 	</nav>
 	<!-- NAVIGATION SECTION END -->
 
+	<div class="container-fluid">
 
-	<!-- MAIN CONTENT START -->
-
-	<div class="container-fluid" id="home">
-		<!-- HOME SECTION START-->
-		<div class="row">
-		<div class="home text-light p-5">
-			<img class="profile mt-3" src="./images/profile.jpg" class="img-fluid">
-			<h1 class="mt-2">Hi! I'm Ciara</h1>
-			<p class="mb-5 pb-5">I plan, organize, design, and develop</p>
-		</div>
-		<!-- HOME SECTION END-->
-
-
-		<!-- ABOUT SECTION START-->
-		<div class="about text-dark p-5" id="about">
-			<div class="row d-flex justify-content-center">
-			    <div class="pt-5 col-12 col-md-6 order-2 order-md-1">
-			        <h1>GET TO KNOW MORE ABOUT ME</h1>
-			        <p class="text-justify">I’m Ciara Parce, a software developer and a graduate of Bachelor of Science in Information Technology major in Software Engineering. My specialization is focused in producing quality works that includes front-end development tasks for website and mobile app. I am knowledgable to different software development tools such as HTML, CSS, and Bootstrap for web development, Flutter and Dart for mobile application and Adobe Photoshop for graphic editing tool. I can also manage projects through creative problem solving and innovative thinking. I possess a strong eye for detail and can thrive independently as well as in a team environment. I would be happy to apply the experience and skills I’ve obtained during my student/freelancer life.
-
-			        <p class="text-justify">
-			        For some fun fact, I am a chess player, music lover, and dance enthusiat.</p>
-			        </p>
-			    </div>
-			    <div class="pt-5 col-12 col-md-6 order-1 order-md-2">
-			        <img src="./images/likes.png" class="img-fluid" />
-			    </div>
+		<!-- HOME SECTION START -->
+		<div class="row home" id="home">
+			<div class="col-sm-6 col-md-6 offset-2 offset-sm-0 offset-md-1 mt-5 text-light pr-sm-5 profilepad justify-content-center align-items-center">
+				<img src="./images/profile.jpg" class="profile img-fluid">
+				<h1 class="mt-2">Hi! I'm Ciara</h1>
+				<p class="mb-5 pb-5">I plan, organize, design, and develop</p>
 			</div>
 		</div>
-		<!-- ABOUT SECTION END-->
+		<!-- HOME SECTION END -->
 
 
-		<!-- PROJECTS SECTION START-->
-		<div class="projects text-light min-vh-100 p-5" id="projects">
-			<h1 class="mb-3 mt-5">MY PROJECTS</h1>
+		<!-- ABOUT SECTION START -->
+		<div class="row about p-5" id="about">
+			<div class="text-dark col-md-6 order-2 order-md-1">
+		        <h1>ABOUT ME</h1>
+		        <p class="text-justify">I’m Ciara Parce, a software developer and a graduate of Bachelor of Science in Information Technology major in Software Engineering. My specialization is focused in producing quality works that includes front-end development tasks for website and mobile app. I am knowledgable to different software development tools such as HTML, CSS, and Bootstrap for web development, Flutter and Dart for mobile application and Adobe Photoshop for graphic editing tool. I can also manage projects through creative problem solving and innovative thinking. I possess a strong eye for detail and can thrive independently as well as in a team environment. I would be happy to apply the experience and skills I’ve obtained during my student/freelancer life.
+		        <p class="text-justify">
+		        For some fun fact, I am a chess player, music lover, and dance enthusiat.</p>
+		        </p>
+			</div>
+
+			<div class="col-md-6 order-1 order-md-2">
+			    <img src="./images/likes.png" class="img-fluid" />
+			</div>
+		</div>
+		<!-- ABOUT SECTION START-->
+
+
+		<!-- PROJECTS SECTION START -->
+		<div class="row projects text-light min-vh-100 p-5" id="projects">
+			<h1 class="mb-3 mt-5 mt-sm-2 mt-md-2">MY PROJECTS</h1>
 			<div class="d-lg-flex justify-content-center p-md-5">
 				<!-- MANGROVISION START -->
 				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
-				  <div class="card-body mt-3 mb-3">
-				  	<img src="./images/mangrovision.png" class="card-img-top">
-				    <h5 class="card-title mt-3">MANGROVISION</h5>
-				    <h6 class="card-subtitle mb-2 text-muted">Mobile Application</h6>
-				    <p class="card-text pt-3 pb-2">MangroVision is an interactive and informative mobile application reinforced machine learning model intended for learning and identifying ten (10) local mangrove species, developed to serve as a modern and less cumbersome method of mangrove species identification. It is a system where users can recognize a mangrove by giving leaf image as an input, the output will be an image and details of scientific name and the level of accuracy of the identified leaf. It also provides significant information about mangrove and its ecosystem.</p>
-				    <a href="./project.html" target="_blank" class="card-link">Link to Project</a>
-				  </div>
+				  	<div class="card-body mt-3 mb-3">
+					  	<img src="./images/mangrovision.png" class="card-img-top">
+					    <h5 class="card-title mt-3">MANGROVISION</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Mobile Application</h6>
+					    <p class="card-text pt-3 pb-2">MangroVision is an interactive and informative mobile application reinforced machine learning model intended for learning and identifying ten (10) local mangrove species, developed to serve as a modern and less cumbersome method of mangrove species identification. It is a system where users can recognize a mangrove by giving leaf image as an input, the output will be an image and details of scientific name and the level of accuracy of the identified leaf. It also provides significant information about mangrove and its ecosystem.</p>
+					    <a href="./project.html" target="_blank" class="card-link">Link to Project</a>
+				  	</div>
 				</div>
 				<!-- MANGROVISION END -->
 
 				<!-- SAFE ZONE START -->
 				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
-				  <div class="card-body mt-3 mb-3">
-				  	<img src="./images/safezone.png" class="card-img-top">
-				    <h5 class="card-title mt-3">SAFE ZONE</h5>
-				    <h6 class="card-subtitle mb-2 text-muted">Website Application</h6>
-				    <p class="card-text pb-4 pt-4">SAFE ZONE (SZ) is a website application implemented by The Sentinels, a non-profit organization, that aims to reclaim and defend the cyberspace of women and discriminated gender against ICT-GBV in the Philippines. It is a report filing system that uses AI and text labelling to automatically predicts what kind of ICT facilitatd gender-based violence the user experienced. The system can also give tips to the user on how to cope up with the situation and what are the possible liabilities of the offender.</p>
-				    <a href="./project.html" target="_blank" class="card-link">Link to Project</a>
-				  </div>
+					<div class="card-body mt-3 mb-3">
+					  	<img src="./images/safezone.png" class="card-img-top">
+					    <h5 class="card-title mt-3">SAFE ZONE</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Website Application</h6>
+					    <p class="card-text pb-4 pt-4">SAFE ZONE (SZ) is a website application implemented by The Sentinels, a non-profit organization, that aims to reclaim and defend the cyberspace of women and discriminated gender against ICT-GBV in the Philippines. It is a report filing system that uses AI and text labelling to automatically predicts what kind of ICT facilitatd gender-based violence the user experienced. The system can also give tips to the user on how to cope up with the situation and what are the possible liabilities of the offender.</p>
+					    <a href="./project.html" target="_blank" class="card-link">Link to Project</a>
+					</div>
 				</div>
 				<!-- SAFE ZONE END -->
 
-				<!-- ASU EVENT SEARCH APP< -->
+					<!-- ASU EVENT SEARCH APP< -->
 				<div class="card bg-dark bg-light col-xl-4 mb-5 mb-xl-0">
-				  <div class="card-body mt-3 mb-3">
-				  	<img src="./images/musyon.png" class="card-img-top">
-				    <h5 class="card-title mt-3">ASU EVENT SEARCH APP</h5>
-				    <h6 class="card-subtitle mb-2 text-muted">Mobile Application</h6>
-				    <p class="card-text pb-5 pt-4">A multi-platform software that enables students to search events and activities exclusive for all campuses of Aklan State University (ASU). Faculties of ASU can post events that aims to strenghten the community of learners and teachers. Students can bookmark events and receive notifications from the app. The goal of this software is to provide a platform to rapidly dissimiante event details to all students and teaching staffs of ASU.</p>
-				    <a href="./project.html" target="_blank" class="card-link">Link to Project</a>
-				  </div>
-				</div>
-				<!-- ASU EVENT SEARCH APP< END -->
-			</div>
-
-			<!-- CAROUSAL SECTION START -->
-				<div class="row d-none d-md-block mt-md-5">
-					<div class="offset-xl-3 col-xl-6">
-						<h2 class="text-center">GRAPHIC ARTS</h2>
-						<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
-						    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-						    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-						    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-						    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-						    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-						  </ol>
-						  <div class="carousel-inner">
-						    <div class="carousel-item active">
-						      <img src="./images/g1.png" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="./images/g2.png" class="d-block w-100" alt="...">
-						      <div class="carousel-caption d-none d-md-block">
-						      </div>
-						    </div>
-						    <div class="carousel-item">
-						      <img src="./images/g3.png" class="d-block w-100" alt="...">
-						      <div class="carousel-caption d-none d-md-block">
-						      </div>
-						    </div>
-						    <div class="carousel-item">
-						      <img src="./images/g4.png" class="d-block w-100" alt="...">
-						      <div class="carousel-caption d-none d-md-block">
-						      </div>
-						    </div>
-						    <div class="carousel-item">
-						      <img src="./images/g5.png" class="d-block w-100" alt="...">
-						      <div class="carousel-caption d-none d-md-block">
-						      </div>
-						    </div>
-						  </div>
-						  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Previous</span>
-						  </button>
-						  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Next</span>
-						  </button>
-						</div>
+					<div class="card-body mt-3 mb-3">
+					  	<img src="./images/musyon.png" class="card-img-top">
+					    <h5 class="card-title mt-3">ASU EVENT SEARCH APP</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Mobile Application</h6>
+					    <p class="card-text pb-5 pt-4">A multi-platform software that enables students to search events and activities exclusive for all campuses of Aklan State University (ASU). Faculties of ASU can post events that aims to strenghten the community of learners and teachers. Students can bookmark events and receive notifications from the app. The goal of this software is to provide a platform to rapidly dissimiante event details to all students and teaching staffs of ASU.</p>
+					    <a href="./project.html" target="_blank" class="card-link">Link to Project</a>
 					</div>
 				</div>
-				<!-- CAROUSAL SECTION END -->
-		</div>
-		<!-- PROJECTS SECTION END-->
-		</div>
-		</div>
-		<!-- MAIN CONTENT END -->
-
-		<div class="tools min-vh-75">
-			<h1 class="text-center pt-5">Core Tools</h1>
-			<div class="d-flex flex-md-column pb-5">
-	            <div class="d-md-flex justify-content-center">
-	                <img width="150" src="images/logo-html5.png"/>
-			        <img width="150" src="images/logo-css3.png"/>
-			        <img width="150" src="images/logo-bootstrap.png"/>
-			        <img width="150" src="images/logo-git.png"/>
-			        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
-			        <img width="150" src="images/logo-sublime-text-3.png"/>
-	            </div>
-	        </div>
-		</div>
-
-	<!-- CONTACT SECTION START-->
-	<div class="col-12 contact text-light min-vh-50 p-5 text-center" id="contact">
-		<h2 class="mb-3 mt-5" id="tools">CONTACT ME</h2>
-		<!-- CONTACT CONTAINER -->
-		<div class="p-md-5">
-			<form class="col-sm-12 col-md-8 offset-md-2">
-			  <div class="form-group">
-			    <label for="exampleInput50ail1">Name</label>
-			    <input type="text" class="form-control" id="exampleInputName" aria-describedby="userName">
-			  </div>
-
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Email address</label>
-			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-			  </div>
-
-			  <div class="form-group">
-			    <label for="exampleContact">Contact Number</label>
-			    <input type="integer" class="form-control" id="exampleContact" aria-describedby="contactNumber">
-			  </div>
-
-			  <div class="form-group mb-4">
-			      <label for="exampleFormControlTextarea1" class="mt-3">Message</label>
-			      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-			  </div>
-
-
-			  	<!-- Button trigger modal -->
-			  	<button type="button" class="btn btn-primary text-light" data-toggle="modal" data-target="#exampleModal">
-			  	  Submit Email
-			  	</button>
-
-			  	<!-- Modal -->
-			  	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  	  <div class="modal-dialog">
-			  	    <div class="modal-content">
-			  	      <div class="modal-header">
-			  	        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting me!</h5>
-			  	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  	          <span aria-hidden="true">&times;</span>
-			  	        </button>
-			  	      </div>
-			  	      <div class="modal-body text-dark font-bold">
-			  	        <p>Message Successfully Sent</p>
-			  	      </div>
-			  	      <div class="modal-footer">
-			  	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			  	      </div>
-			  	    </div>
-			  	  </div>
-			  	</div>
-
-
-			</form>
-		</div>
-	</div>
-	<!-- CONTACT SECTION END-->
-
-	<!-- FOOTER SECTION -->
-	<footer>
-		<div class="footer-content">
-			<h3>DEVELOPER'S PORTFOLIO</h3>
-			<p>For any queries, don't hesitate to contact me.</p>
-			<ul class="socials col-12">
-				<li><a href="https://web.facebook.com/ciara.parce" target="_blank"><img src="./images/facebook.png" width="30px"></i></a></li>
-				<li><a href="https://www.instagram.com/xiaaang___/" target="_blank"><img src="./images/instagram.png" width="30px"></a></li>
-				<li><a href="https://www.linkedin.com/in/ciara-parce-89758b1a0/" target="_blank"><img src="./images/linkedin.png" width="30px"></a></li>
-				<li><a href="https://github.com/ciaraparce" target="_blank"><img src="./images/github.png" width="30px"></i></a></li>
-				<li><a href="https://gitlab.com/xiaparce" target="_blank"><img src="./images/gitlab.png" width="30px"></i></a></li>
-			</ul>
-			<div class="footer-bottom col-12">
-				<p>copyright &copy;2022 website portfolio designed by <span>Ciara Parce</span></p>
+					<!-- ASU EVENT SEARCH APP< END -->
 			</div>
 		</div>
+		<!-- PROJECTS SECTION START -->
+
+		<!-- CAROUSAL SECTION START -->
+		<div class="row carousal d-none d-md-block pt-md-3 pt-xl-4 pb-5" id="gallery">
+			<div class="offset-xl-3 col-xl-6">
+				<h2 class="offset-xl-4 offset-md-4">GRAPHIC ARTS</h2>
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+				    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="./images/g1.png" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="./images/g2.png" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="./images/g3.png" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="./images/g4.png" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="./images/g5.png" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				      </div>
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </button>
+				</div>
+			</div>
+		</div>
+		<!-- CAROUSAL SECTION END -->
 		
-	</footer>
+	</div> <!-- Closing of Container Fluid -->
+
+
 
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
