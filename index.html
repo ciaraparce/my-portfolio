@@ -24,10 +24,10 @@
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNav">
 	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item active">
+	      <li class="nav-item">
 	        <a class="nav-link" href="#home">Home</a>
 	      </li>
-	      <li class="nav-item active">
+	      <li class="nav-item">
 	        <a class="nav-link" href="#about">About</a>
 	      </li>
 	      <li class="nav-item">
@@ -40,7 +40,7 @@
 	        <a class="nav-link" href="#tools">Tools</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#tools">Contact</a>
+	        <a class="nav-link" href="#contact">Contact</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -66,7 +66,7 @@
 		        <h1>ABOUT ME</h1>
 		        <p class="text-justify">I’m Ciara Parce, a software developer and a graduate of Bachelor of Science in Information Technology major in Software Engineering. My specialization is focused in producing quality works that includes front-end development tasks for website and mobile app. I am knowledgable to different software development tools such as HTML, CSS, and Bootstrap for web development, Flutter and Dart for mobile application and Adobe Photoshop for graphic editing tool. I can also manage projects through creative problem solving and innovative thinking. I possess a strong eye for detail and can thrive independently as well as in a team environment. I would be happy to apply the experience and skills I’ve obtained during my student/freelancer life.
 		        <p class="text-justify">
-		        For some fun fact, I am a chess player, music lover, and dance enthusiat.</p>
+		        For some fun fact, I am a chess player, music lover, and dance enthusiast.</p>
 		        </p>
 			</div>
 
@@ -123,7 +123,7 @@
 		<!-- CAROUSAL SECTION START -->
 		<div class="row carousal d-none d-md-block pt-md-3 pt-xl-4 pb-5" id="gallery">
 			<div class="offset-xl-3 col-xl-6">
-				<h2 class="offset-xl-4 offset-md-4">GRAPHIC ARTS</h2>
+				<h2 class="offset-xl-4 offset-md-4 pb-3">GRAPHIC ARTS</h2>
 				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -169,10 +169,100 @@
 			</div>
 		</div>
 		<!-- CAROUSAL SECTION END -->
-		
+
+		<!-- CORE TOOLS SECTION START -->
+		<div class="row justify-content-center" id="tools">
+		<div class="tools min-vh-75">
+			<h1 class="text-center pt-5">Core Tools</h1>
+			<div class="d-flex flex-md-column pb-5">
+	            <div class="col-12 d-md-flex justify-content-center">
+	                <img width="150" src="images/logo-html5.png" class="img-fluid" />
+			        <img width="150" src="images/logo-css3.png" class="img-fluid"/>
+			        <img width="150" src="images/logo-bootstrap.png" class="img-fluid"/>
+			        <img width="150" src="images/logo-git.png" class="img-fluid"/>
+			        <img width="150" src="images/logo-sublime-text-3.png" class="img-fluid"/>
+	            </div>
+	        </div>
+		</div>
+		</div>
+		<!-- CORE TOOLS SECTION END -->
+
+		<!-- CONTACT SECTION START-->
+		<div class="bg-dark text-light" id="contact">
+			<h2 class="offset-2 pl-5 pt-5">LEAVE A MESSAGE</h2>
+			<!-- CONTACT CONTAINER -->
+			<div class="bg-dark p-md-5">
+				<form class="col-sm-12 col-md-8 offset-md-2">
+				  <div class="form-group">
+				    <label for="exampleInput50ail1">Name</label>
+				    <input type="text" class="form-control" id="exampleInputName" aria-describedby="userName">
+				  </div>
+
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+				  </div>
+
+				  <div class="form-group">
+				    <label for="exampleContact">Contact Number</label>
+				    <input type="integer" class="form-control" id="exampleContact" aria-describedby="contactNumber">
+				  </div>
+
+				  <div class="form-group mb-4">
+				      <label for="exampleFormControlTextarea1" class="mt-3">Message</label>
+				      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				  </div>
+
+
+				  	<!-- Button trigger modal -->
+				  	<button type="button" class="btn btn-primary text-light mb-3" data-toggle="modal" data-target="#exampleModal">
+				  	  Submit Email
+				  	</button>
+
+				  	<!-- Modal -->
+				  	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  	  <div class="modal-dialog">
+				  	    <div class="modal-content">
+				  	      <div class="modal-header">
+				  	        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+				  	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  	          <span aria-hidden="true">&times;</span>
+				  	        </button>
+				  	      </div>
+				  	      <div class="modal-body text-dark font-bold">
+				  	        <p>Message Successfully Sent</p>
+				  	      </div>
+				  	      <div class="modal-footer">
+				  	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				  	      </div>
+				  	    </div>
+				  	  </div>
+				  	</div>
+				</form>
+			</div>
+		</div>
+		<!-- CONTACT SECTION END-->
+
+		<!-- FOOTER SECTION START -->
+		<footer>
+			<div class="footer-content">
+				<h3>DEVELOPER'S PORTFOLIO</h3>
+				<p>For any queries, don't hesitate to contact me.</p>
+				<ul class="socials col-12">
+					<li><a href="https://web.facebook.com/ciara.parce" target="_blank"><img src="./images/facebook.png" width="30px"></i></a></li>
+					<li><a href="https://www.instagram.com/xiaaang___/" target="_blank"><img src="./images/instagram.png" width="30px"></a></li>
+					<li><a href="https://www.linkedin.com/in/ciara-parce-89758b1a0/" target="_blank"><img src="./images/linkedin.png" width="30px"></a></li>
+					<li><a href="https://github.com/ciaraparce" target="_blank"><img src="./images/github.png" width="30px"></i></a></li>
+					<li><a href="https://gitlab.com/xiaparce" target="_blank"><img src="./images/gitlab.png" width="30px"></i></a></li>
+				</ul>
+				<div class="footer-bottom col-12">
+					<p>copyright &copy;2022 website portfolio designed by <span>Ciara Parce</span></p>
+				</div>
+			</div>
+		</footer>
+		<!-- FOOTER SECTION END -->
+
 	</div> <!-- Closing of Container Fluid -->
-
-
 
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
